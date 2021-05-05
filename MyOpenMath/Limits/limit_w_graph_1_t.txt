@@ -1,6 +1,6 @@
 ### Common Control
 
-$anstypes = array("number","number")
+$anstypes = array("number","number","number","number")
 
 $h , $k = nonzerodiffrands(-1,2,2)
 
@@ -12,9 +12,9 @@ $plot4 = "dot,0-2,-1"
 $plotA = showplot([$plot1,$plot2,$plot3,$plot4])
 
 $answer[0] = -2
-$answer[1] = $h
+$answer[1] = -1
 $answer[2] = -1
-$answer[3] = $h-1
+$answer[3] = 4
 
 ### Question Text
 
@@ -24,9 +24,12 @@ Use the graph of the given function `f` to find the limit as `x` goes to `-2` an
 
 $plotA
 
-Step One:
-
 For `x=-2`, we want to find `\lim_{x\to -2}f(x)`. That is, we are looking for the value of `L`, if it exists, such that `y=f(x)` can be make sufficently close to `L` as we want, if we make `x` sufficiently close to $answerbox[0].
 
-For `x=$h`, we want to find `\lim_{x\to $h}f(x)`. That is, we are looking for the value of `L`, if it exists, such that `y=f(x)` can be make sufficently close to `L` as we want, if we make `x` sufficiently close to $answerbox[1].
+For `x=-2`, want to identify there are two points one open and one closed. 
 
+* What is the `y` value for the open point? $answerbox[3] 
+
+* What is the `y` value for the closed point? $answerbox[1] 
+
+* What is `f(-2)`? $answerbox[2]
