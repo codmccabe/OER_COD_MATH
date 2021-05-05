@@ -1,0 +1,32 @@
+### Common Control
+
+$anstypes = array("number","number")
+
+$h , $k = nonzerodiffrands(-1,2,2)
+
+$plot1 = "x^2,,-2,$h,open,closed"
+$plot2 = "x-1,,$h,4,open,closed"
+$plot3 = "2*(x+2)+4,,-4,-2,closed,open"
+$plot4 = "dot,0-2,-1"
+
+$plotA = showplot([$plot1,$plot2,$plot3,$plot4])
+
+$answer[0] = -2
+$answer[1] = $h
+$answer[2] = -1
+$answer[3] = $h-1
+
+### Question Text
+
+In the following parts we are talking about evaluating a limit of a function denoted by, `\lim_{x\to a}f(x)=L`, where `a` is a real number, and if the limit exists `L` is a real number.
+
+Use the graph of the given function `f` to find the limit as `x` goes to `-2` and as `x` goes to `$h`.
+
+$plotA
+
+Step One:
+
+For `x=-2`, we want to find `\lim_{x\to -2}f(x)`. That is, we are looking for the value of `L`, if it exists, such that `y=f(x)` can be make sufficently close to `L` as we want, if we make `x` sufficiently close to $answerbox[0].
+
+For `x=$h`, we want to find `\lim_{x\to $h}f(x)`. That is, we are looking for the value of `L`, if it exists, such that `y=f(x)` can be make sufficently close to `L` as we want, if we make `x` sufficiently close to $answerbox[1].
+
