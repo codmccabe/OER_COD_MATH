@@ -1,0 +1,65 @@
+$f = "2x^3+4x^2-5x-3"
+$df = "6x^2+8x-5"
+$a = -1
+$m = eval($df,'x',$a)
+$fa = eval($f, 'x', $a)
+$T = "$m*(x-$a)+$fa"
+
+$answer = $T
+
+###
+Find the equation of the tangent line to the graph of `f(x)=$f` at `x=$a`.
+
+\\\///
+f = "x^2+\frac{4}{x}-10"
+$df = "2x-\frac{4}{x^2}"
+$a = 8
+$m = eval($df,'x',$a)
+$fa = eval($f, 'x', $a)
+$T = "$m*(x-$a)+$fa"
+
+$answer = $T
+
+###
+Find the equation of the tangent line to the graph of `f(x)=$f` at `x=$a`.
+
+\\\///
+f = "(3x-x^2)(3-x-x^2)"
+$df = "4x^3-6x^2-12x+9"
+$a = 1
+$m = eval($df,'x',$a)
+$fa = eval($f, 'x', $a)
+$T = "$m*(x-$a)+$fa"
+
+$answer = $T
+
+###
+Find the equation of the tangent line to the graph of `f(x)=$f` at `x=$a`.
+
+\\\///
+f = "(3x-x^2)(3-x-x^2)"
+$df = "4x^3-6x^2-12x+9"
+$a = 1
+$m = eval($df,'x',$a)
+$fa = eval($f, 'x', $a)
+$T = "$m*(x-$a)+$fa"
+
+$answer = $T
+
+###
+Find the equation of the tangent line to the graph of `f(x)=$f` at `x=$a`.
+
+\\\///
+f = "x^3"
+$df = "3x^2"
+$a = 9
+$m = eval($df,'x',$a)
+$fa = eval($f, 'x', $a)
+$T = "$m*(x-$a)+$fa"
+
+$answer = $T
+
+###
+Find the equation of the tangent line to the graph of `f(x)=$f` such that the tangent line equation has an `x`-intercept of `x=6`.
+
+\\\///
