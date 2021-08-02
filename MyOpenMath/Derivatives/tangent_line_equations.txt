@@ -26,7 +26,7 @@ Find the equation of the tangent line to the graph of `f(x)=$f` at `x=$a`.
 `y=`$answerbox
 
 \\\///
-f = "(3x-x^2)(3-x-x^2)"
+$f = "(3x-x^2)(3-x-x^2)"
 $df = "4x^3-6x^2-12x+9"
 $a = 1
 $m = evalfunc($df,'x',$a)
@@ -37,9 +37,10 @@ $answer = $T
 
 ###
 Find the equation of the tangent line to the graph of `f(x)=$f` at `x=$a`.
+
 `y=`$answerbox
 \\\///
-f = "(3x-x^2)(3-x-x^2)"
+$f = "(3x-x^2)(3-x-x^2)"
 $df = "4x^3-6x^2-12x+9"
 $a = 1
 $m = evalfunc($df,'x',$a)
@@ -50,9 +51,10 @@ $answer = $T
 
 ###
 Find the equation of the tangent line to the graph of `f(x)=$f` at `x=$a`.
+
 `y=`$answerbox
 \\\///
-f = "x^3"
+$f = "x^3"
 $df = "3x^2"
 $a = 9
 $m = evalfunc($df,'x',$a)
@@ -63,5 +65,6 @@ $answer = $T
 
 ###
 Find the equation of the tangent line to the graph of `f(x)=$f` such that the tangent line equation has an `x`-intercept of `x=6`.
+
 `y=`$answerbox
 \\\///
